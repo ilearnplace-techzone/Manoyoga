@@ -95,7 +95,6 @@ const HomeOurMentors: FC = () => {
         <Typography variant="h1" sx={{ fontSize: 40 }}>
           Our Expert Mentors
         </Typography>
-
         <Slider {...sliderConfig}>
           {data.map((item) => (
             <MentorCardItem key={String(item.id)} item={item} />
