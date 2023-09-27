@@ -116,7 +116,7 @@ const HomeTestimonial: FC = () => {
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
             <Box sx={{ width: { xs: '100%', md: '90%' } }}>
               {/* <Image src="/images/Manoyoga Card-Front.png" width={520} height={540} quality={97} alt="Manoyoga Card-Front img" /> */}
-              <Image src="/images/Manoyoga Card-Front.png" width={520} height={540} quality={97} alt="Manoyoga Card-Front img" />
+              <Image src="/images/Manoyoga-Card-Front.png" width={520} height={540} quality={97} alt="Manoyoga-Card-Front img" />
             </Box>
           </Grid>
         </Grid>
