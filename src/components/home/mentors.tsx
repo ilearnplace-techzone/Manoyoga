@@ -96,10 +96,15 @@ const HomeOurMentors: FC = () => {
           Our Expert Mentors
         </Typography>
 
-        <Slider {...sliderConfig}>
+        {/* <Slider {...sliderConfig}>
           {data.map((item) => (
             <MentorCardItem key={String(item.id)} item={item} />
           ))}
+        </Slider> */}
+        <Slider {...sliderConfig}>
+        <a href='https://youtu.be/E2ROAtxClMI' target="_blank" rel="noopener noreferrer">
+        YouTube Link
+      </a>
         </Slider>
       </Container>
     </Box>

@@ -46,22 +46,5 @@ export const data: Array<Course> = [
     price: 35,
     category: 'Intermediate',
   },
-  {
-    id: 6,
-    cover: '/images/courses/stillness-inmotion-YSCCnRGrD-4-unsplash.jpg',
-    title: 'Ethical Hacking Bootcamp Zero to Mastery',
-    rating: 5,
-    ratingCount: 14,
-    price: 35,
-    category: 'Beginner',
-  },
-  {
-    id: 7,
-    cover: '/images/courses/grovemade-RvPDe41lYBA-unsplash.jpg',
-    title: 'Adobe Lightroom For Beginners: Complete Photo Editing',
-    rating: 4,
-    ratingCount: 6,
-    price: 25,
-    category: 'Beginner',
-  },
+  
 ]
