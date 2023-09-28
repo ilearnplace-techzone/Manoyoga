@@ -101,11 +101,42 @@ const HomeOurMentors: FC = () => {
             <MentorCardItem key={String(item.id)} item={item} />
           ))}
         </Slider> */}
-        <Slider {...sliderConfig}>
-        <a href='https://youtu.be/E2ROAtxClMI' target="_blank" rel="noopener noreferrer">
-        YouTube Link
-      </a>
-        </Slider>
+        
+        {/* <Slider> */}
+        <div style={{ display: "flex", flexDirection: "row" }}>
+      <iframe
+        width="500"
+        height="300"
+        src="https://www.youtube.com/embed/E2ROAtxClMI"
+        title="Manoyoga"
+        frameBorder="0"
+        allowFullScreen
+        style={{ marginRight: "10px" }} 
+      ></iframe>
+    {/* </div> */}
+    {/* <div style={{display:"inline-block"}}> */}
+      <iframe
+        width="500"
+        height="300"
+        src="https://www.youtube.com/embed/ipl5VHaMv_A?si=uD-V6I8iH0fH9jGF" 
+        title="Manoyoga"
+        frameBorder="0"
+        allowFullScreen
+        style={{ marginRight: "10px" }} 
+      ></iframe>
+    {/* </div> */}
+    {/* <div style={{display:"inline-block"}}> */}
+      <iframe
+        width="500"
+        height="300"
+        src="https://www.youtube.com/embed/svnuytd1_Jg?si=Q9AAVZcfIVsxMfA6"
+        title="Manoyoga"
+        frameBorder="0"
+        allowFullScreen
+        style={{ marginRight: "10px" }} 
+      ></iframe>
+    </div>
+        {/* </Slider> */}
       </Container>
     </Box>
   )
