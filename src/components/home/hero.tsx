@@ -83,6 +83,9 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
+                  
+                  भारत में पहली बार
+                                 
                     Manage{' '}
                     <Box
                       sx={{
@@ -138,7 +141,7 @@ const HomeHero: FC = () => {
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Take a course or counselling session to manage your mind/thinking patterns and improve your life with proven psychological methods, you can get it in online as well as in offline mode."
+                   '15 वर्षों से लगातार रिसर्च और सफल प्रयोगों के बाद मनोविज्ञान और योग के सिद्धांतों/ विधियों/ थेरेपीज पर आधारित सभी समस्याओं के लिए तैयार किए गए विशेष समाधान।'
                   }
                 </Typography>
               </Box>
@@ -177,7 +180,7 @@ const HomeHero: FC = () => {
             > 
             </Box>
             <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/Manoyoga.png" width={775} height={787} alt="Manoyoga img" />
+              <Image src="/images/Manoyogas.jpeg" width={775} height={787} alt="Manoyogas img" />
             </Box>
           </Grid>
         </Grid>
